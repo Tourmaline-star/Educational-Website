@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Single post</title>
+
+	<!-- font Awesome CDN link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="about.css">
+	<link rel="stylesheet" href="blog.css">
+	<link rel="stylesheet" href="post.css">
+
+	<!-- JQuery CDN link -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!-- Navigation start -->
+	<nav>
+		<img <a class="navbar-brand" href="index.html">
+    			<img src="techteach-logo.png.png"
+         		alt="TechaTeach - Exquisite School of Coding"
+         		class="site-logo">
+		</a>
+
+
+		<div class="navigation">
+			<ul>
+				<i id="menu-close" class="fas fa-times"></i>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="courses.html">Courses</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+
+			<img src="img/menu.png" id="menu-btn" alt="">
+		</div>
+	</nav>
+	<!-- Navigation ends -->
+
+
+	<!-- Post body starts from here -->
+	<div id="blog-container">
+		<div class="blogs blogpost">
+			<div class="post">
+				<img src="img/b1.jpg" alt="">
+				<h3>Learn web development In the Easiest way</h3>
+				<p>
+				
+
+				Have you ever wondered how websites are created, how their beautiful designs come together, or how buttons, menus, and other features work? This course is your opportunity to discover the exciting world of web development and learn how to turn your ideas into real, functional websites. Whether you are completely new to programming or simply looking to improve your technical skills, this course will guide you through the learning process one step at a time.
+
+				You will begin by exploring HTML, the foundation of every website, and learn how to structure web pages using headings, paragraphs, images, links, lists, and other essential elements. Next, you will discover CSS and how it transforms ordinary web pages into attractive designs through colours, fonts, spacing, layouts, backgrounds, and animations. You will also be introduced to JavaScript, where you will learn how to make websites interactive by creating functional buttons, responding to user actions, and adding dynamic features.
+
+				Throughout the course, you will work through practical examples and guided exercises that will help you understand how each technology works. You will learn how HTML, CSS, and JavaScript work together to create complete websites, while developing the ability to identify and correct common coding errors. You will also explore basic website layouts, navigation bars, responsive design, and techniques for making your websites look good on different screen sizes.
+
+				Our lessons are designed to make learning simple, enjoyable, and less overwhelming, even if you have never written a line of code before. You can learn at your own pace, practise each concept, revisit lessons whenever necessary, and gradually build your confidence as a developer. By the end of this course, you will have the knowledge and practical foundation to design and build your own websites, work on beginner-friendly projects, and continue exploring more advanced areas of web development.
+
+		
+				<br>
+
+				<a href="#">Read Next</a>
+			</div>
+		</div>
+	</div>
+	<!-- Post body ends from here -->
+
+
+	<!-- Footer section starts from here -->
+	<footer>
+		<div class="footer-col">
+			<h3>Top Products</h3>
+			<li>Manage Reputation</li>
+			<li>Power Tools</li>
+			<li>Managed Website</li>
+			<li>Marketing Service</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Power Tools</h3>
+			<li>Jobs</li>
+			<li>Marketing Service</li>
+			<li>Top Products</li>
+			<li>Manage Reputation</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Power Tools</h3>
+			<li>Managed Website</li>
+			<li>Manage Reputation</li>
+			<li>Top Products</li>
+			<li>Marketing Service</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Guides</h3>
+			<li>Research</li>
+			<li>Experts</li>
+			<li>Managed Website</li>
+			<li>Marketing Service</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Newsletter</h3>
+			<p>You can trust us. we only send promo offers.</p>
+
+			<div class="subscribe">
+				<input type="email" placeholder="Your email Address">
+				<a href="#" class="yellow">SUBSCRIBE</a>
+			</div>
+		</div>
+
+		<div class="copyright">
+			<p>
+				Copyright @ 2022 All rights reserved | This template is made by <a href="https://atulcodex.com" target="_blank">atulcodex</a>
+			</p>
+			<div class="pro-links">
+				<i class="fab fa-facebook"></i>
+				<i class="fab fa-instagram"></i>
+				<i class="fab fa-linkedin-in"></i>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer section ends from here -->
+
+	<script>
+		// Show menu links on burger click
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+
+		// Hide navbar on click function
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+</body>
+</html>
